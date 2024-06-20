@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Example</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let companies = `[
+    {
+        "name" : "Big Corp",
+        "numberOfEmployees" : 10000,
+        "CEO" : "Danvers",
+        "rating" : 4.8
+    },
+    {
+        "name" : "Starturp Corp",
+        "numberOfEmployees" : 7,
+        "CEO" : null,
+        "rating" : 4.1
+    }
+]`
+console.log(JSON.parse(companies))
+console.log(JSON.parse(companies)[0].CEO)
+
+    </script>
+</body>
+</html>
