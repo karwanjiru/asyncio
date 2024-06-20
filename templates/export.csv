@@ -1,2 +1,0 @@
-{% for cadet in cadets %}{{ cadet.name }}: {{ cadet.score }}/{{ max_score }}
-{% endfor %}
