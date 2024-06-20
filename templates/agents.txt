@@ -1,0 +1,9 @@
+{# templates/agents.txt #}
+Agent {{ name }},
+
+Welcome to the DEO. You passed the "{{ test_name }}" with flying colors, scoring {{ score }} out of {{ max_score }} points. Your potential is undeniable.
+Your journey into the shadows begins now. Prepare for the missions ahead—your skills will be tested like never before.
+
+Stay vigilant.
+
+Director Hank Henshaw
